@@ -1,0 +1,7 @@
+{
+    "name": "falkonry",
+    "description": "falkonry block",
+    "license": "ISC",
+    "version": 1,
+    "dependencies": {}
+}
