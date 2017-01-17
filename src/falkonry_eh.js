@@ -2,9 +2,6 @@ export default (request) => {
   // require xhr module to make http request
   const xhr = require('xhr');
 
-  // your falkonry api token
-  const token = 'API_TOKEN';
-
   // your falkonry webhook URL (usually in the form of https://?.falkonry.ai/webhook/<buffer>)
   const webhookUrl = 'WEBHOOK_URL';
 
@@ -15,7 +12,6 @@ export default (request) => {
     var params = {
       method: 'POST',
       headers: {
-        Authorization: 'Token ' + token,
         Accept: 'application/json',
         'Content-Type': 'application/json'
       },
